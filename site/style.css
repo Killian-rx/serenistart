@@ -1,0 +1,48 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+.sidebar {
+    width: 100px;
+    background-color: cornflowerblue;
+    color: #fff;
+    padding: 300px 30px;
+}
+
+.menu {
+    list-style: none;
+    padding: 0;
+}
+
+.menu li {
+    margin: 0;
+}
+
+.menu a {
+    text-decoration: none;
+    color: black;
+    display: block;
+    padding: 20px 15px;
+}
+
+/* Style the dropdown menu */
+.dropdown-content {
+    display: none;
+    background-color: cornflowerblue;
+}
+
+.dropdown-content li {
+    padding: 0;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+.content {
+    flex: 1;
+    padding: 10px 550px;
+}
