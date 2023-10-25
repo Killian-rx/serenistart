@@ -1,41 +1,30 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>SereniStart - Plateforme d'Indépendance</title>
-    <link rel="stylesheet" href="styles.css">
+    <title>Dropdown Menu Example</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
 </head>
 <body>
     <header>
-        <h1>SereniStart</h1>
         <nav>
-            <ul>
-                <li><a href="forum.html">Forum</a></li>
-                <li><a href="#explications">Explications</a></li>
-                <li><a href="services.html">Services</a></li>
-                <li><a href="#contact">Contact</a></li>
+            <ul class="menu">
+                <li><a href="#">A propos</a></li>
+                <li class="dropdown">
+                    <a href="#">Administration &#9662;</a>
+                    <ul class="dropdown-content">
+                        <li><a href="#">Service 1</a></li>
+                        <li><a href="#">Service 2</a></li>
+                        <li><a href="#">Service 3</a></li>
+                    </ul>
+                </li>
+                <li><a href="#">Conseils</a></li>
+                <li><a href="#">Forum</a></li>
             </ul>
         </nav>
     </header>
-    
-    <section id="accueil">
-        <h2>Préparez-vous pour une vie adulte sereine</h2>
-        <p>Notre plateforme vous simplifie la vie en expliquant toutes les démarches administratives liées à votre indépendance.</p>
-    </section>
-    
-    <section id="explications">
-        <h2>Explications Claires</h2>
-        <p>Nous simplifions les fiches de paie, les impôts et bien plus encore, pour que tout soit compréhensible.</p>
-    </section>
-    
-    <section id="contact">
-        <h2>Contactez-nous</h2>
-        <p>Pour des questions ou des informations supplémentaires, n'hésitez pas à nous contacter à l'adresse email@example.com.</p>
-    </section>
-
-    <footer>
-        <p>&copy; 2023 SereniStart - Tous droits réservés</p>
-    </footer>
+    <div class="content">
+        <!-- Your page content goes here -->
+    </div>
+    <script src="script.js"></script>
 </body>
 </html>
