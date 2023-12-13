@@ -7,12 +7,24 @@ body{
     background: white;
 }
 
+@font-face {
+    font-family: "Amatic SC";
+    src:
+      url("fonts/AmaticSC-Bold.ttf") format("opentype") tech(color-COLRv1),
+      url("fonts/AmaticSC-Regular.ttf") format("opentype"),
+      url("fonts/OFL.txt") format("woff");
+    
+    font-family: "Pattaya";
+    src:
+        url("fonts/Pattaya-Regular.ttf") format("opentype") tech(color-COLRv1),
+        url("fonts/OFL.txt") format("woff");
+}
+
 
 .navbar {
     padding: 20px;
     width: 70%;
     margin: auto;
-    background: white;
     padding-bottom: 50px;
 }
 
@@ -28,7 +40,7 @@ body{
     text-decoration: none;
     font-size: 30px;
     font-weight: 500;
-    font-family: 'Cambria', cursive;
+    font-family: "Pattaya";
 }
 .logo1{
     width: 20%;
