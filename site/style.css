@@ -1,52 +1,216 @@
-*{
-    padding: 0;
+/* Réinitialisation des styles de base */
+* {
     margin: 0;
-    box-sizing: border-box;
-    font-family: century;
 }
 
-header {
-    background-image: url(./image/moodboard.png);
-    height: 100vh;
-    background-size: cover;
-    text-align: center;
+body{
+    background: white;
 }
 
 
-nav {
-    display: flex;
+.navbar {
+    padding: 20px;
+    width: 70%;
+    margin: auto;
+    background: white;
+    padding-bottom: 50px;
+}
+
+.logo{
     justify-content: center;
+    align-items: center;
+    display: flex;
+    padding-bottom: 20px;
 }
 
-.menu {
-    list-style: none;
-    padding: 0;
+.logo a{
+    color: black;
+    text-decoration: none;
+    font-size: 30px;
+    font-weight: 500;
+    font-family: 'Cambria', cursive;
+}
+.logo1{
+    width: 20%;
+}
+
+.logoinsta{
+    width: 100px;
+}
+.logo2{
+    width: 30%;
+}
+
+.logo2:hover{   
+    color: burlywood;
+    cursor: pointer;
+}
+
+.nav-links {
+    justify-content: center;
+    align-items: center;
+    display: flex;
+
+}
+
+.nav-links a {
+    justify-content:space-around;
+    display: flex;
+    margin-right: 15px;
+    color: black;
+    text-decoration: none;
+    font-weight: 500;
+    font-size: 11px;
+    font-family: 'Cambria', cursive;    
+}
+
+
+.nav-links a:hover{
+    color: burlywood;
+    cursor: pointer;
+}
+
+
+
+.container{
+    margin: auto;
+    width: 70%;
+    display: flex;
+    margin-bottom: 80px;
+    overflow: hidden;
+}
+
+.parti1{
+    width: 50%;
+    overflow: hidden;
+    display:flex;
+    margin-right: 1%;
+}
+
+.parti2{
+    width: 50%;
+    overflow: hidden;
+    display:flex;
+}
+
+.img1{
+    width: 100%;
+    transition: all 0.5s;
+}
+
+.img2{
+    width: 100%;
+    transition: all 0.5s;
+}
+
+.parti1:hover .img1{
+    transform: scale(1.1);
+    cursor: pointer;
+}
+
+.parti2:hover .img2{
+    transform: scale(1.1);
+    cursor: pointer;
+}
+
+
+.document{
+    margin: auto;
+    border-radius: 4px;
+    width: 80%;
     display: flex;
 }
 
-.menu li {
-    margin: 0 20px;
-}
-
-.menu a {
-    text-decoration: none;
+.doc{
     color: black;
-    padding: 10px;
+    font-family: 'Cambria', cursive;
+    display: flex;
+    font-size: 18px;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    margin-right: 50%;
+    margin-bottom: 40px;
 }
 
-/* Style the dropdown menu */
-.dropdown-content {
-    display: none;
-    position: absolute;
-    background-color: #333;
-    min-width: 160px;
-    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+.docplus{
+    color: black;
+    font-family: 'Cambria', cursive;
+    display: flex;
+    font-size: 14px;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
 }
 
-.dropdown-content li {
-    padding: 10px;
+.docplus:hover{
+    color: burlywood;
+    cursor: pointer;
 }
 
-.dropdown:hover .dropdown-content {
-    display: block;
+
+.container2{
+    width: 80%;
+    margin: auto;
+    margin-bottom: 1000px;
+    display: flex;
+}
+
+.doc1{
+    width: 20%;
+    margin-right: 6.6%;
+}
+
+.img3{
+    width: 100%;
+    transition: all 0.5s;
+}
+
+.doc2{
+    width: 20%;
+    margin-right: 6.6%;
+}
+
+.img4{
+    width: 100%;
+    transition: all 0.5s;
+}
+
+.doc3{
+    width: 20%;
+    margin-right: 6.6%;
+}
+
+.img5{
+    width: 100%;
+    transition: all 0.5s;
+}
+
+.doc4{
+    width: 20%;
+}
+
+.img6{
+    width: 100%;
+    transition: all 0.5s;
+}
+
+.doc1:hover .img3{
+    transform: scale(1.1);
+    cursor: pointer;
+}
+
+.doc2:hover .img4{
+    transform: scale(1.1);
+    cursor: pointer;
+}
+
+.doc3:hover .img5{
+    transform: scale(1.1);
+    cursor: pointer;
+}
+
+.doc4:hover .img6{
+    transform: scale(1.1);
+    cursor: pointer;
 }
