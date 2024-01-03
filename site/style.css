@@ -1,4 +1,3 @@
-/* Réinitialisation des styles de base */
 * {
     margin: 0;
 }
@@ -8,15 +7,23 @@ body{
 }
 
 @font-face {
-    font-family: "Amatic SC";
+    font-family: "Amatic";
     src:
       url("fonts/AmaticSC-Bold.ttf") format("opentype") tech(color-COLRv1),
-      url("fonts/AmaticSC-Regular.ttf") format("opentype"),
       url("fonts/OFL.txt") format("woff");
-    
+}
+
+@font-face {   
     font-family: "Pattaya";
     src:
         url("fonts/Pattaya-Regular.ttf") format("opentype") tech(color-COLRv1),
+        url("fonts/OFL.txt") format("woff");
+}
+
+@font-face {
+    font-family: "Poiret";
+    src:
+        url("fonts/PoiretOne-Regular.ttf") format("opentype") tech(color-COLRv1),
         url("fonts/OFL.txt") format("woff");
 }
 
@@ -47,10 +54,11 @@ body{
 }
 
 .logoinsta{
-    width: 100px;
+    width: 50px;
 }
+
 .logo2{
-    width: 30%;
+    width: 100%;
 }
 
 .logo2:hover{   
@@ -62,18 +70,17 @@ body{
     justify-content: center;
     align-items: center;
     display: flex;
-
 }
 
 .nav-links a {
     justify-content:space-around;
     display: flex;
-    margin-right: 15px;
+    margin-right: 18px;
     color: black;
     text-decoration: none;
     font-weight: 500;
-    font-size: 11px;
-    font-family: 'Cambria', cursive;    
+    font-size: 20px; 
+    font-family: 'Amatic';   
 }
 
 
@@ -81,8 +88,6 @@ body{
     color: burlywood;
     cursor: pointer;
 }
-
-
 
 .container{
     margin: auto;
@@ -131,31 +136,32 @@ body{
     border-radius: 4px;
     width: 80%;
     display: flex;
+    margin-bottom: 50px;
 }
 
 .doc{
     color: black;
-    font-family: 'Cambria', cursive;
+    font-family: 'Amatic';
     display: flex;
-    font-size: 18px;
+    font-size: 30px;
     justify-content: center;
     align-items: center;
     padding: 20px;
-    margin-right: 50%;
-    margin-bottom: 40px;
+    margin-right: 60%;
+    margin-bottom: 100px;
 }
 
-.docplus{
+.document a{
     color: black;
-    font-family: 'Cambria', cursive;
+    font-family: 'Poiret';
     display: flex;
-    font-size: 14px;
+    font-size: 15px;
     justify-content: center;
     align-items: center;
-    padding: 20px;
+    text-decoration: none;
 }
 
-.docplus:hover{
+.document a:hover{
     color: burlywood;
     cursor: pointer;
 }
@@ -225,4 +231,35 @@ body{
 .doc4:hover .img6{
     transform: scale(1.1);
     cursor: pointer;
+}
+
+
+@media screen and (max-width: 900px){
+    .doc{
+        margin-right: 50%;
+    }
+
+    .nav-links a{
+        font-size: 15px;
+        margin-right: 15px;
+    }
+
+    .logoinsta{
+        width: 40px;
+    }
+
+    .doc{
+        font-size: 20px;
+        margin-bottom: 0px;
+    }   
+
+    .document a{
+        margin-top: 30px;
+        font-size: 11px;
+    }
+
+    .logo1{
+        width: 30%;
+    }
+
 }
