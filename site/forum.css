@@ -1,0 +1,228 @@
+* {
+    margin: 0;
+}
+
+body{
+    background: white;
+}
+
+@font-face {
+    font-family: "Amatic";
+    src:
+      url("fonts/AmaticSC-Bold.ttf") format("opentype") tech(color-COLRv1),
+      url("fonts/OFL.txt") format("woff");
+}
+
+@font-face {   
+    font-family: "Pattaya";
+    src:
+        url("fonts/Pattaya-Regular.ttf") format("opentype") tech(color-COLRv1),
+        url("fonts/OFL.txt") format("woff");
+}
+
+@font-face {
+    font-family: "Poiret";
+    src:
+        url("fonts/PoiretOne-Regular.ttf") format("opentype") tech(color-COLRv1),
+        url("fonts/OFL.txt") format("woff");
+}
+
+
+.navbar {
+    padding: 20px;
+    width: 70%;
+    margin: auto;
+    padding-bottom: 50px;
+}
+
+.logo{
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    margin-bottom: 20px;
+    border-bottom: 1px solid gainsboro;
+}
+
+.logo a{
+    color: black;
+    text-decoration: none;
+    font-size: 40px;
+    font-weight: 500;
+    font-family: "Pattaya";
+}
+.logo1{
+    width: 20%;
+}
+
+.logoinsta{
+    width: 5%;
+}
+
+.logo2{
+    width: 100%;
+}
+
+.logo2:hover{   
+    color: burlywood;
+    cursor: pointer;
+}
+
+.nav-links {
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+
+.nav-links a {
+    justify-content:space-around;
+    display: flex;
+    margin-right: 18px;
+    color: black;
+    text-decoration: none;
+    font-weight: 500;
+    font-size: 25px; 
+    font-family: 'Amatic';   
+}
+
+
+.nav-links a:hover{
+    color: burlywood;
+    cursor: pointer;
+}
+
+.container1{
+    width: 50%;
+    margin: auto;
+    text-align: center;
+    margin-bottom: 150px;
+}
+
+.container1 h1{
+    font-family: "Poiret";
+    font-size: 30px;
+    margin: auto;
+    padding: 20px;
+    margin-bottom: 50px;
+}
+
+.search{
+    display: flex;
+    margin: auto;   
+    width: 100%;
+    padding: 1%;
+    border: 1px solid black;
+    border-radius: 4px;
+}
+
+.img-search{
+    margin: auto;
+    width: 100%;
+   
+}
+
+.search button{
+    width: 10%;
+    border-radius: 10px;
+    background-color: white;
+    overflow: hidden;
+    border: 1px solid black;
+}
+
+.search button:hover{
+    background-color: #e9e6dc;
+    cursor: pointer;
+}
+
+input{
+    font-family: "Poiret";
+    font-size: 25px;
+    font-weight: 600;
+    padding-inline: 10px;
+    width: 50%;
+    border: 1px solid black;
+    border-radius: 10px;
+    margin: auto;
+}
+
+
+.container2{
+    width: 50%;
+    margin: auto;
+    display: flex;
+    margin-bottom: 180px;
+}
+
+.container2-1{
+    width: 33.33%;
+    text-align: center;
+}
+
+.container2-1 button{
+    padding: 4%;
+    background: white;
+    border: 1px solid black;
+    border-radius: 10px
+}
+
+.container2-1 button:hover{
+    background-color: #e9e6dc;
+    cursor: pointer;
+}
+
+.container2-2{
+    width: 33.33%;
+    text-align: center;
+}
+
+.container2-2 button{
+    padding: 4%;
+    background: white;
+    border: 1px solid black;
+    border-radius: 10px
+}
+
+.container2-2 button:hover{
+    background-color: #e9e6dc;
+    cursor: pointer;
+}
+
+.container2-3{
+    width: 33.33%;
+    text-align: center;
+}
+
+.container2-3 button{
+    padding: 4%;
+    background: white;
+    border: 1px solid black;
+    border-radius: 10px
+}
+
+.container2-3 button:hover{
+    background-color: #e9e6dc;
+    cursor: pointer;
+}
+
+footer {
+    text-align: center;
+    clear: both;
+}
+
+
+
+@media screen and (max-width: 900px){
+
+    .nav-links a{
+        font-size: 20px;
+        margin-right: 10px;
+    }
+
+    .logoinsta{
+        width: 40px;
+    }
+
+    .logo1{
+        width: 30%;
+    }
+    
+}

@@ -1,0 +1,264 @@
+* {
+    margin: 0;
+}
+
+body{
+    background: white;
+}
+
+@font-face {
+    font-family: "Amatic";
+    src:
+      url("fonts/AmaticSC-Bold.ttf") format("opentype") tech(color-COLRv1),
+      url("fonts/OFL.txt") format("woff");
+}
+
+@font-face {   
+    font-family: "Pattaya";
+    src:
+        url("fonts/Pattaya-Regular.ttf") format("opentype") tech(color-COLRv1),
+        url("fonts/OFL.txt") format("woff");
+}
+
+@font-face {
+    font-family: "Poiret";
+    src:
+        url("fonts/PoiretOne-Regular.ttf") format("opentype") tech(color-COLRv1),
+        url("fonts/OFL.txt") format("woff");
+}
+
+
+.navbar {
+    padding: 20px;
+    width: 70%;
+    margin: auto;
+    padding-bottom: 50px;
+}
+
+.logo{
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    margin-bottom: 20px;
+    border-bottom: 1px solid gainsboro;
+}
+
+.logo a{
+    color: black;
+    text-decoration: none;
+    font-size: 40px;
+    font-weight: 500;
+    font-family: "Pattaya";
+}
+.logo1{
+    width: 20%;
+}
+
+.logoinsta{
+    width: 5%;
+}
+
+.logo2{
+    width: 100%;
+}
+
+.logo2:hover{   
+    color: burlywood;
+    cursor: pointer;
+}
+
+.nav-links {
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+
+.nav-links a {
+    justify-content:space-around;
+    display: flex;
+    margin-right: 18px;
+    color: black;
+    text-decoration: none;
+    font-weight: 500;
+    font-size: 25px; 
+    font-family: 'Amatic';   
+}
+
+
+.nav-links a:hover{
+    color: burlywood;
+    cursor: pointer;
+}
+
+
+.container{
+    width: 80%;
+    margin: auto;
+    margin-bottom: 100px;
+}
+
+.container h1{
+    font-family: 'Poiret';
+    padding-bottom: 20px;
+}
+
+.cadre1{
+    font-size: 20px;
+    font-weight: 600;
+    text-align: center;
+    font-family: 'Poiret';
+}
+
+.container2{
+    width: 80%;
+    margin: auto;
+    padding-block: 20px;
+    margin-bottom: 100px;
+}
+
+.parti1{
+    margin: auto;
+    width: 60%;
+    margin-bottom: 80px;
+    text-align: center;
+}
+
+.parti1 h1{
+    font-family: 'Poiret';
+    padding-bottom: 10px;
+}
+
+.parti1 p{
+    font-family: 'Poiret';
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+.parti1 button{
+    font-family: 'Poiret';
+    font-weight: 600;
+    font-size: 20px;
+    background: whitesmoke;
+    border: 1px solid black;
+    box-shadow: 0px 0px 3px rgba(0, 0, 0, 0.5);
+    border-radius: 4px;
+    padding: 2%;
+}
+
+.parti1 button:hover{   
+    cursor: pointer;
+    transform: scale(1.05);
+}
+
+.parti2{
+    margin: auto;
+    width: 60%;
+    text-align: center ;
+    margin-bottom: 80px;
+}
+
+.parti2 h1{
+    font-family: 'Poiret';
+    padding-bottom: 10px;
+}
+
+.parti2 p{
+    font-family: 'Poiret';
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+.parti2 button{
+    font-family: 'Poiret';
+    font-weight: 600;
+    font-size: 20px;
+    background: whitesmoke;
+    border: 1px solid black;
+    box-shadow: 0px 0px 3px rgba(0, 0, 0, 0.5);
+    border-radius: 4px;
+    padding: 2%;
+}
+
+.parti2 button:hover{   
+    cursor: pointer;
+    transform: scale(1.05);
+}
+
+.parti3{
+    margin: auto;
+    width: 60%;
+    text-align: center ;
+    margin-bottom: 80px;
+}
+
+.parti3 h1{
+    font-family: 'Poiret';
+    padding-bottom: 10px;
+}
+
+.parti3 p{
+    font-family: 'Poiret';
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+.parti3 button{
+    font-family: 'Poiret';
+    font-weight: 600;
+    font-size: 20px;
+    background: whitesmoke;
+    border: 1px solid black;
+    box-shadow: 0px 0px 3px rgba(0, 0, 0, 0.5);
+    border-radius: 4px;
+    padding: 2%;
+}
+
+.parti3 button:hover{   
+    cursor: pointer;
+    transform: scale(1.05);
+}
+
+.parti4{
+    margin: auto;
+    width: 60%;
+    text-align: center ;
+    margin-bottom: 80px;
+}
+
+
+.parti4 h1{
+    font-family: 'Poiret';
+    padding-bottom: 10px;
+}
+
+
+.parti4 p{
+    font-family: 'Poiret';
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+
+
+.parti4 button{
+    font-family: 'Poiret';
+    font-weight: 600;
+    font-size: 20px;
+    background: whitesmoke;
+    border: 1px solid black;
+    box-shadow: 0px 0px 3px rgba(0, 0, 0, 0.5);
+    border-radius: 4px;
+    padding: 2%;
+}
+
+.parti4 button:hover{   
+    cursor: pointer;
+    transform: scale(1.05);
+}
+
+
+footer {
+    text-align: center;
+    font-family: 'Amatic';
+    font-size: 20px;
+}

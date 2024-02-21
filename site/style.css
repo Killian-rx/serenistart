@@ -39,13 +39,14 @@ body{
     justify-content: center;
     align-items: center;
     display: flex;
-    padding-bottom: 20px;
+    margin-bottom: 20px;
+    border-bottom: 1px solid gainsboro;
 }
 
 .logo a{
     color: black;
     text-decoration: none;
-    font-size: 30px;
+    font-size: 40px;
     font-weight: 500;
     font-family: "Pattaya";
 }
@@ -54,7 +55,7 @@ body{
 }
 
 .logoinsta{
-    width: 50px;
+    width: 5%;
 }
 
 .logo2{
@@ -79,7 +80,7 @@ body{
     color: black;
     text-decoration: none;
     font-weight: 500;
-    font-size: 20px; 
+    font-size: 25px; 
     font-family: 'Amatic';   
 }
 
@@ -93,36 +94,13 @@ body{
     margin: auto;
     width: 70%;
     display: flex;
-    margin-bottom: 80px;
+    margin-bottom: 180px;
     overflow: hidden;
-}
-
-.parti1{
-    width: 50%;
-    overflow: hidden;
-    display:flex;
-    margin-right: 1%;
-}
-
-.parti2{
-    width: 50%;
-    overflow: hidden;
-    display:flex;
+    border-radius: 10px;
 }
 
 .img1{
     width: 100%;
-    transition: all 0.5s;
-}
-
-.img2{
-    width: 100%;
-    transition: all 0.5s;
-}
-
-.parti1:hover .img1{
-    transform: scale(1.1);
-    cursor: pointer;
 }
 
 .parti2:hover .img2{
@@ -142,11 +120,9 @@ body{
 .doc{
     color: black;
     font-family: 'Amatic';
-    display: flex;
-    font-size: 30px;
+    font-size: 50px;
     justify-content: center;
     align-items: center;
-    padding: 20px;
     margin-right: 60%;
     margin-bottom: 100px;
 }
@@ -155,10 +131,11 @@ body{
     color: black;
     font-family: 'Poiret';
     display: flex;
-    font-size: 15px;
+    font-size: 20px;
     justify-content: center;
     align-items: center;
     text-decoration: none;
+    font-weight: 600;
 }
 
 .document a:hover{
@@ -170,47 +147,64 @@ body{
 .container2{
     width: 80%;
     margin: auto;
-    margin-bottom: 1000px;
+    margin-bottom: 180px;
     display: flex;
 }
 
 .doc1{
     width: 20%;
     margin-right: 6.6%;
+    text-align: center;
+    font-family: 'Poiret';
+    font-weight: 600;
 }
 
 .img3{
     width: 100%;
     transition: all 0.5s;
+    margin-bottom: 10px;
 }
 
 .doc2{
     width: 20%;
     margin-right: 6.6%;
+    text-align: center;
+    font-family: 'Poiret';
+    font-weight: 600;
 }
 
 .img4{
     width: 100%;
     transition: all 0.5s;
+    margin-bottom: 10px;
 }
 
 .doc3{
     width: 20%;
     margin-right: 6.6%;
+    text-align: center;
+    font-family: 'Poiret';
+    font-weight: 600;
 }
 
 .img5{
     width: 100%;
     transition: all 0.5s;
+    margin-bottom: 10px;
 }
 
 .doc4{
     width: 20%;
+    margin-right: 6.6%;
+    text-align: center;
+    font-family: 'Poiret';
+    font-weight: 600;
 }
 
 .img6{
     width: 100%;
     transition: all 0.5s;
+    margin-bottom: 10px;
 }
 
 .doc1:hover .img3{
@@ -233,33 +227,56 @@ body{
     cursor: pointer;
 }
 
+.texteapropos h1{
+    font-family: 'Amatic';
+    font-size: 50px;
+}
+
+.texteapropos{
+    margin: auto;
+    width: 80%;
+    margin-bottom: 150px;
+    font-family: 'Poiret';
+    font-size: 30px;
+    text-align: center;
+    font-weight: 600;
+}
+
+
+footer {
+    text-align: center;
+    font-family: 'Amatic';
+    font-size: 20px;
+}
+
 
 @media screen and (max-width: 900px){
     .doc{
         margin-right: 50%;
     }
 
-    .nav-links a{
-        font-size: 15px;
-        margin-right: 15px;
+    .container{
+        margin-bottom: 80px;
     }
 
     .logoinsta{
-        width: 40px;
+        width: 10%;
     }
 
     .doc{
-        font-size: 20px;
-        margin-bottom: 0px;
+        font-size: 30px;
     }   
 
     .document a{
         margin-top: 30px;
-        font-size: 11px;
+        font-size: 15px;
     }
 
     .logo1{
         width: 30%;
     }
 
+    .container2{
+        margin-bottom: 100px;
+    }
 }
