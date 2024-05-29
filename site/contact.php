@@ -26,7 +26,7 @@
 </nav>
 
 <div class="contact">
-<h1>Contactez-nous</h1>
+    <h1>Contactez-nous</h1>
     <form method="post">
         <input type="email" name="email" placeholder="Votre email">
         <textarea name="message" placeholder="Message"></textarea>
@@ -39,7 +39,7 @@
         $entete .= 'From: contact@serenistart.com' . "\r\n";
         $entete .= 'Reply-to: ' . $_POST['email'];
 
-        $message = '<h1>Message envoyé depuis la page Contact de monsite.fr</h1>
+        $message = '<h1>Message envoyé depuis la page Contact de Serenistart.ovh</h1>
         <p><b>Email : </b>' . $_POST['email'] . '<br>
         <b>Message : </b>' . htmlspecialchars($_POST['message']) . '</p>';
 
